@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.gov.rs.procergs.rsmovel"
+    android:versionCode="11"
+    android:versionName="1.4" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="20" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/CustomActionBarTheme" >
+        <activity
+            android:name="br.com.procergs.rsmovel.SplashActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:screenOrientation="fullUser"
+            android:name="br.com.procergs.rsmovel.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="br.com.procergs.rsmovel.ContentActivity"
+            android:label="@string/title_activity_content" >
+        </activity>
+        <activity
+            android:name="br.com.procergs.rsmovel.ContentRSSActivity"
+            android:label="@string/title_activity_rsscontent" >
+        </activity>
+    </application>
+
+</manifest>

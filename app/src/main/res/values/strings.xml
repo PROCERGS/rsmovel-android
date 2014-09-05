@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Gerais -->
+    <string name="app_name">RS Móvel</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_add">Adicionar</string>
+    <string name="abrir">Abrir</string>
+    <string name="fechar">Fechar</string>
+    <string name="splashscreen_logo">Carregando</string>
+    <string name="splashscreen_titulo">RS Móvel</string>
+    <string name="splashscreen_mensagem">Centro de Soluções em Governo Eletrônico</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="sair">Sair</string>
+    <string name="icone"></string>
+    <string name="compartilhar">Compartilhar</string>
+
+    <!--
+    Itens do Navigation Drawer fornecidos para 
+    o método getXmlAdapter da classe MenuAdapter 
+    -->
+    <string name="menu_item_0">Serviços Disponíveis</string>
+    <string name="menu_item_1">Termo de Serviço</string>
+    <string name="menu_item_2">Sobre o RS Móvel</string>
+    <string name="menu">Opções</string>
+    <string name="ok">OK</string>
+    <string name="title_configuracoes">Configurações</string>
+    <string name="title_ajuda">Ajuda</string>
+
+    <!-- Menu Action Bar -->
+    <string name="action_settings">Configurações</string>
+    <string name="action_ajuda">Ajuda</string>
+    <string name="action_feedback">Feedback</string>
+    <string name="action_sobre">Sobre</string>
+    <string name="action_close">Fechar</string>
+
+    <!-- Títulos -->
+    <string name="title_item_1_fragment">Item 1</string>
+    <string name="title_item_2_fragment">Item 2</string>
+    <string name="title_item_3_fragment">Sobre</string>
+    <string name="title_item_4_fragment">Item 4</string>
+    <string name="title_item_5_fragment">Item 5</string>
+    <string name="titulo_changelog">APM v0.1 - Notas da Versão</string>
+    <string name="titulo_apresentacao">APM v0.1 - Apresentação</string>
+    <string name="titulo_navegacao">Navegação</string>
+    <string name="titulo_exemplos">Exemplos</string>
+    <string name="titulo_versao">Versão</string>
+    <string name="title_sobre">Sobre</string>
+    <string name="title_feedback">Feedback</string>
+    <string name="title_lista_simples">Exemplo Lista Simples</string>
+
+    <!-- Textos e Labels -->
+    <string name="texto_apresentacao">        Olá! Bem-vindo!
+        \n\nEsta é a primeira versão da Aplicação PROCERGS Mobile.
+        \n\nAqui, nós da DTI/STD, buscaremos disponibilizar as melhores práticas de desenvolvimento Android a partir das diretrizes Google de desenvolvimento para dispositivos móveis.
+		\n\nO objetivo deste App Modelo é prover um início rápido para seus projetos Android na PROCERGS de modo mais objetivo e preciso. Sinta-se à vontade para dar-nos seu feedback. Sua opinião é muito importante para que possamos melhorar este trabalho. Sucesso e bons projetos.
+		\n\nEquipe Mobile DTI/STD</string>
+    <string name="texto_apresentacao_parte2">Aqui, nós da DTI/STD, buscaremos disponibilizar as melhores práticas de desenvolvimento Android a partir das diretrizes Google de desenvolvimento para dispositivos móveis.</string>
+    <string name="texto_apresentacao_parte3">O objetivo deste app modelo é prover um início rápido para seus projetos Android na PROCERGS de modo mais objetivo e preciso. Sinta-se à vontade para dar-nos seu feedback. Sua opinião é muito importante para que possamos melhorar este trabalho. Sucesso e bons projetos. </string>
+    <string name="texto_creditos">Equipe Mobile DTI/STD</string>
+    <string name="texto_nota1">- Adicionado o item de menu para compartilhamento do repositório da Aplicação Modelo.</string>
+    <string name="texto_nota2">- Criada a seção "Apresentação" que irá informar os desenvolvedores sobre o que mudou a cada novo release.</string>
+    <string name="texto_nota3">- Adicionada estrutura de exemplo de um menu de apps com ícones e section items. Pode ser lido a partir de um arquivo de resources ou programaticamente através da classe MenuAdapter.</string>
+    <string name="texto_nota4">- Criado o padrão de navegação de apps baseado no pattern Navigation Drawer</string>
+    <string name="texto_navegacao">Navegação</string>
+    <string name="texto_exemplos">Exemplos</string>
+    <string name="texto_versao">Versão</string>
+    <string name="tvIntroducao">Intro</string>
+    <string name="content_item_1_fragment">Conteúdo de fragment do item 1</string>
+    <string name="content_item_2_fragment">O RS Móvel é um agrupador de serviços prestados pelo Governo do Estado do Rio Grande do Sul através da PROCERGS.\n\nA PROCERGS não se responsabiliza por falhas decorrentes do acesso aos serviços do RS Móvel causadas por operadoras de telecomunicações, serviços de conectividade internet móvel e qualidade do aparelho móvel utilizado.\n\nOs serviços foram desenvolvidos para aparelhos do tipo smartphone ou tablet com navegador web e capacidade de executar Javascript.\n\nDesenvolvido pela PROCERGS</string>
+    <string name="content_item_3_fragment">Conteúdo de fragment do item 2</string>
+    <string name="content_item_4_fragment">Conteúdo de fragment do item 4</string>
+    <string name="content_item_5_fragment">Conteúdo de fragment do item 5</string>
+    <string name="label_pesquisar">Pesquisar</string>
+    <string name="linha1">Governo do Estado do Rio Grande do Sul</string>
+    <string name="linha2">Palácio Piratini\nPraça Marechal Deodoro s/n\nPorto Alegre RS\nCEP 90010\-282</string>
+    <string name="linha3">(51) 3210 4100</string>
+    <string name="banner_gabinete_digital">Gabinete Digital</string>
+    <string name="banner_banrisul">Banrisul</string>
+    <string name="banner_lainfo">Lei de Acesso à Informação</string>
+    <string name="title_activity_content">Conteúdo</string>
+    <string name="carregando">Aguarde&#8230;</string>
+    <string name="linha4">Acesse o RS Móvel na Web</string>
+    <string name="label_telefone">Telefone</string>
+    <string name="label_endereco">Endereço</string>
+    <string name="title_activity_rsscontent">Notícias</string>
+    <string name="action_agenda">Agenda</string>
+
+</resources>

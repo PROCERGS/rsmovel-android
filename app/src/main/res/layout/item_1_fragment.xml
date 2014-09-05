@@ -1,0 +1,48 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <!-- Below activity widgets when the transparent layout is gone -->
+
+    <LinearLayout
+        style="@style/Transparent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/vpDestaques"
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:layout_margin="10dp" />
+
+        <ExpandableListView
+            android:id="@+id/lvExp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/top_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#aa000000"
+        android:visibility="invisible" >
+
+        <ImageView
+            android:id="@+id/ivInstruction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:clickable="false"
+            android:contentDescription="@string/icone"
+            android:paddingTop="0dp"
+            android:scaleType="center"
+            android:src="@drawable/tip" />
+    </RelativeLayout>
+
+</FrameLayout>

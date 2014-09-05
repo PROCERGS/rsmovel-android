@@ -1,0 +1,5 @@
+<resources>
+    <drawable name="transparent">#00ffffff</drawable>
+    <drawable name="altercolor1">#ffffffff</drawable>
+    <drawable name="altercolor2">#99d5d5d5</drawable>
+</resources>

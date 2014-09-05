@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="titulo_changelog">
+        <item>@string/titulo_changelog</item>
+    </string-array>
+
+    <string-array name="titles">
+        <item>@string/titulo_navegacao</item>
+        <item>@string/titulo_exemplos</item>
+        <item>@string/titulo_versao</item>
+    </string-array>
+
+    <string-array name="apresentacao">
+        <item>@string/texto_apresentacao</item>
+    </string-array>
+    
+    <string-array name="notas">
+        <item>@string/texto_nota1</item>
+        <item>@string/texto_nota2</item>
+        <item>@string/texto_nota3</item>
+        <item>@string/texto_nota4</item>
+    </string-array>
+    
+</resources>

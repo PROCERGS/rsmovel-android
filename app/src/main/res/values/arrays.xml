@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+	Este arquivo é responsável pelo conteúdo do menu navigation drawer.
+	
+	A estrutura do menu pode ser criada dentro da própria classe MenuAdapter,
+	dispensando este xml, caso ache necessário. Porém, orientamos esta prática
+	para fins de facilitar a manutenção e a criação de arquivos de tradução do
+	seu app.
+
+	Este arquivo corresponde a três estruturas de arrqys, respectivamente:
+	
+	menu_itens	: contém os labels dos itens que aparecem no navigation drawer
+	menu_icones	: ícones correspondentes aos labels do array menu_itens
+	menu_classes: classes de fragments que serão inseridas na activity conforme o 
+	item de menu acionado no navigation drawer
+	
+	Obs.: para o funcionamento correto as três estruturas de arrays devem possuir 
+	os mesmos números de itens, com exceção do menu_icones. Caso algum ícone não seja
+	fornecido, o ícone padrão da aplicaçào será fornecido.
+-->
+
+<resources>
+
+    <string-array name="menu_itens">
+        <item>@string/menu_item_0</item> <!-- 0 -->
+        <item>@string/menu_item_1</item> <!-- 1 -->
+        <item>@string/menu_item_2</item> <!-- 2 -->
+    </string-array>
+    <string-array name="menu_icones">
+        <item>@android:drawable/ic_menu_agenda</item> <!-- 0 -->
+        <item>@android:drawable/ic_dialog_info</item> <!-- 1 -->
+        <item>@android:drawable/ic_menu_help</item>   <!-- 2 -->
+    </string-array>
+    <string-array name="menu_classes">
+        <item>br.com.procergs.rsmovel.Item_1_Fragment</item> <!-- 0 -->
+        <item>br.com.procergs.rsmovel.Item_2_Fragment</item> <!-- 1 -->
+        <item>br.com.procergs.rsmovel.Item_3_Fragment</item> <!-- 2 -->
+    </string-array>
+
+</resources>
